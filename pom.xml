@@ -13,6 +13,7 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <pf2.version>14.9.0</pf2.version>
+        <dj.version>5.1.0</dj.version>
         <aspectj.version>1.8.10</aspectj.version>
     </properties>
     <dependencies>
@@ -25,7 +26,12 @@
             <groupId>ru.sbtqa.tag.pagefactory</groupId>
             <artifactId>rest-plugin</artifactId>
             <version>${pf2.version}</version>
-            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>ru.sbtqa.tag.datajack.providers</groupId>
+            <artifactId>json-provider</artifactId>
+            <version>5.1.0</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
     <build>

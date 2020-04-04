@@ -9,7 +9,7 @@ import ru.sbtqa.tag.pagefactory.Tag;
 @CucumberOptions(monochrome = true, plugin = {"pretty"},
         glue = {"ru.sbtqa.tag.stepdefs",
                 "org.example.stepdefs"},
-        features = {"src/test/resources/features/"},
-        tags = {"@login"}
+        features = {"src/test/resources/features/"}
+//        tags = {"@getAccess.tk1"}
 )
 public class CucumberTest extends Tag {}
