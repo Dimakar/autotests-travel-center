@@ -3,13 +3,14 @@ package org.example.pages;
 import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import ru.sbtqa.tag.pagefactory.HTMLPage;
 import ru.sbtqa.tag.pagefactory.WebPage;
 import ru.sbtqa.tag.pagefactory.annotations.ActionTitle;
 import ru.sbtqa.tag.pagefactory.annotations.ElementTitle;
 import ru.sbtqa.tag.pagefactory.annotations.PageEntry;
 
 @PageEntry(title = "Страница авторизации")
-public class LoginPage extends WebPage {
+public class LoginPage extends HTMLPage {
     @ElementTitle("Электронная почта")
     @FindBy(xpath = "//input[@placeholder='Электронная почта']")
     public WebElement email;

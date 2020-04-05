@@ -17,9 +17,14 @@
         <aspectj.version>1.8.10</aspectj.version>
     </properties>
     <dependencies>
+<!--        <dependency>-->
+<!--            <groupId>ru.sbtqa.tag.pagefactory</groupId>-->
+<!--            <artifactId>web-plugin</artifactId>-->
+<!--            <version>${pf2.version}</version>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>ru.sbtqa.tag.pagefactory</groupId>
-            <artifactId>web-plugin</artifactId>
+            <artifactId>html-plugin</artifactId>
             <version>${pf2.version}</version>
         </dependency>
         <dependency>
