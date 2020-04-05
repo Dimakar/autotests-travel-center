@@ -1,11 +1,8 @@
 package org.example.pages.blocks;
 
-import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import ru.sbtqa.tag.pagefactory.annotations.ActionTitle;
 import ru.sbtqa.tag.pagefactory.annotations.ElementTitle;
-import ru.sbtqa.tag.pagefactory.annotations.PageEntry;
 import ru.yandex.qatools.htmlelements.element.HtmlElement;
 
 @FindBy(xpath = "//header[contains(@class,'DesktopHeader')]")

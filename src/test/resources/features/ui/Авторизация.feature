@@ -6,7 +6,7 @@
 
   @login.negative
   @login.ui.tk1
-  @data=$loginpassword{incorrect}
+  @data=$loginpassword{incorrectLoginPassword}
   Сценарий: Авторизация. Непустые некорректные логин и пароль
     * пользователь находится на странице "Главная страница center.travel"
     * пользователь нажимает кнопку "Header->Войти в систему"

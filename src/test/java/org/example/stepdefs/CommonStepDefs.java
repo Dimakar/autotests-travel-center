@@ -4,17 +4,9 @@ import cucumber.api.java.ru.И;
 import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import ru.sbtqa.tag.pagefactory.Page;
-import ru.sbtqa.tag.pagefactory.PageManager;
 import ru.sbtqa.tag.pagefactory.context.PageContext;
 import ru.sbtqa.tag.pagefactory.environment.Environment;
 import ru.sbtqa.tag.pagefactory.exceptions.PageException;
-import ru.sbtqa.tag.pagefactory.find.FindUtils;
-import ru.sbtqa.tag.pagefactory.find.HtmlFindUtils;
-import ru.sbtqa.tag.pagefactory.junit.CoreSetupSteps;
-import ru.sbtqa.tag.pagefactory.junit.CoreSteps;
-import ru.sbtqa.tag.pagefactory.junit.CoreStepsImpl;
-import ru.sbtqa.tag.qautils.errors.AutotestError;
-import ru.sbtqa.tag.stepdefs.ru.CoreStepDefs;
 
 public class CommonStepDefs {
 
