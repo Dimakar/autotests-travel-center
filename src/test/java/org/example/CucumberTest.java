@@ -11,7 +11,6 @@ import ru.sbtqa.tag.pagefactory.Tag;
         plugin = {"pretty"},
         glue = {"ru.sbtqa.tag.stepdefs",
                 "org.example.stepdefs"},
-        features = {"src/test/resources/features/"},
-        tags = {"@getService.tk1"}
+        features = {"src/test/resources/features/"}
 )
 public class CucumberTest extends Tag {}
