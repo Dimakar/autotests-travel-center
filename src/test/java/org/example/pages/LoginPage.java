@@ -22,12 +22,13 @@ public class LoginPage extends HTMLPage {
     @FindBy(xpath = "//button[.='Войти']")
     public WebElement enter;
 
-    @ElementTitle("Всплывающая подсказка")
-    @FindBy(xpath = "//div[@class='tippy-popper']//span")
-    public WebElement tippyPopper;
+//    @ElementTitle("Всплывающая подсказка")
+//    @FindBy(xpath = "//div[@class='tippy-popper']//span")
+//    public WebElement tippyPopper;
 
-    @ActionTitle(value = "проверяет наличие подсказки Неверный пароль или адрес электронной почты")
-    public void check() {
-        Assert.assertEquals(tippyPopper.getText(), "Неверный пароль\nили адрес электронной почты");
-    }
+//    @ActionTitle(value = "проверяет наличие подсказки Неверный пароль или адрес электронной почты")
+//    public void check() {
+//        // TODO: 25.04.2020 добавить обработчик ошибок
+//        Assert.assertEquals(tippyPopper.getText(), "Неверный пароль или адрес электронной почты");
+//    }
 }
